@@ -1,0 +1,1 @@
+This project was made for a college assignment and has educational and personal purpose only, fell free to clone and use it yourself too!
