@@ -79,14 +79,6 @@ nav p{
     margin-top: 0px;
 }
 
-.button:hover{
-    color: #ffc2d4;
-    background-color: #8a2846;
-    border: solid 2px #62021e;
-    transform: translateY(10%);
-    box-shadow: -1px 0.5px 2.5px #ffc2d4;
-}
-
 .capas{
     width: 200px;
     height: auto;
@@ -97,9 +89,19 @@ nav p{
     border-radius: 4px;
 }
 
-.capas:hover{
-    transform: translateY(10%);
-    box-shadow: -3.5px 3.5px 7px #8a2846;
+@media (hover: hover) {
+    .capas:hover{
+        transform: translateY(10%);
+        box-shadow: -3.5px 3.5px 7px #8a2846;
+    }
+
+    .button:hover{
+        color: #ffc2d4;
+        background-color: #8a2846;
+        border: solid 2px #62021e;
+        transform: translateY(10%);
+        box-shadow: -1px 0.5px 2.5px #ffc2d4;
+    }
 }
 
 /*-------------------------------------------------------------------------------------------------- 
